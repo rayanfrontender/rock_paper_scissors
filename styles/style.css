@@ -1,0 +1,49 @@
+body{
+    background-color: wheat;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+.title{
+    font-size: 30px;
+}
+.rpc{
+    height: 150px;
+    padding: 20px;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.btnRpc{
+    border: black 5px solid;
+    border-radius: 50px;
+    background-color: wheat;
+}
+.btnReset{
+    background-color: black;
+    color: wheat;
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+}
+.result{
+    font-size: 25px;
+}
+.movesW{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-bottom: 30px;
+    margin-left: 25px;
+}
+.moves{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.imgMoves{
+    height: 50px;
+}
